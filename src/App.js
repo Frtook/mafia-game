@@ -1,3 +1,9 @@
+import Home from "./Home";
+
 export default function App() {
-  return <div className="text-red-500">Main</div>;
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
